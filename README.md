@@ -31,7 +31,7 @@ where "data_path" is the path with the train, val, and test folders. Each folder
 To train using 3D interpolated annotations add the flag ``--dataloader_typ "3D"``, and add the flag ``--contextual`` to use the contextual U-Net.
 
 # Evaluate and test
-To evaluate a trained model and test the segmentations, run the following:
+To evaluate a trained model and obtain the segmentations, run the following:
 ```bash
 python test.py --model_path "model_path" --data_path "data_path" --save_path "save_path" --batch_size 1 
 ```
