@@ -1,7 +1,7 @@
 # Automatic Segmentation of the Aortic Wall from CT Scans with U-Net
 NOTE: this is a fork of the original repository by [s194255](https://github.com/s194255) and I. 
 
-Repository for segmentation of the aortic walls from CT scans using U-Nets trained on sparse annotations. The repository provides code for training and evaluating the standard U-net and the contextual U-Net, as well as code for 3D interpolations of sparse 2D annotations.
+Repository for segmentation of the aortic walls from CT scans using U-Nets trained on sparse annotations. The repository provides code for training and evaluating the standard U-net and the contextual U-Net, as well as code for making 3D interpolations from sparse 2D annotations.
 
 Read our paper [here](figures/paper/Automatic%20Segmentation%20of%20the%20Aortic%20Wall%20from%20CT%20Scans%20with%20U-Net.pdf).
 
